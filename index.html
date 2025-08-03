@@ -148,7 +148,7 @@
       <p id="withdraw-status"></p>
     </div>
   </div> <script>
-    const MIN_WITHDRAW_POINTS = 500;
+    const MIN_WITHDRAW_POINTS = 1000;
     const ADMIN_USER_ID = "7688575707";
     const BOT_TOKEN = "8311601603:AAGj_AMWtWcURGukkIDWxwEVAcPRnBiLNmU";
     const YOUTUBE_VIDEOS = [
@@ -254,8 +254,8 @@ function joinTelegramBonus() {
     }
 
 function showWithdrawForm() {
-  if (earnedPoints < 500) {
-    alert("❌ You need at least 500 points to request a withdrawal.");
+  if (earnedPoints < 1000) {
+    alert("❌ You need at least 1000 points to request a withdrawal.");
     return;
   }
 
